@@ -1,5 +1,4 @@
 import React from 'react'
-import AdsHero from "../Components/Ads/AdsHero"
 import Footer from '../Components/Footer/Footer'
 import NewAdsHero from '../Components/Ads/NewAdsHero'
 
