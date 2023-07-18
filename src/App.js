@@ -1,15 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './pages/Home';
-import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
+import Adspage from './pages/Adspage';
+// import Footer from './Components/Footer/Footer';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Navbar from './Components/Navbar/Navbar';
+import Login from './pages/Login';
 
 function App() {
   return (
     <BrowserRouter>
+    <Navbar/>
     <Routes>
         <Route path="/" element={< Home/>}></Route>
-        <Route path="/skitchads" element={< Home/>}></Route>
+        <Route path="/login" element={< Login/>}></Route>
+        <Route path="/skitchads" element={< Adspage/>}></Route>
     </Routes>
+    {/* <Footer/> */}
     </BrowserRouter>
   );
 }
