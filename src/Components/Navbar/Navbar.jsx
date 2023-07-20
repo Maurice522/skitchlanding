@@ -6,7 +6,7 @@ const Navbar = () => {
   const navigate = useNavigate()
   return (
     <>
-    <header className='h-[33px] w-full  '>
+    <header className='navbar_container_phone h-[35px] w-full'>
         <div className='flex items-center ml-32 mt-5 gap-10 h-[18px]'>
             <img className='cursor-pointer' onClick={()=>navigate("/")} src={logo} alt="" />
             <p className='drop-shadow-lg'>FUN FOOD & FRENZY</p>
