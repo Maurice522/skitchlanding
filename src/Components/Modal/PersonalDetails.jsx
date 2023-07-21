@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import TextField from '@mui/material/TextField';
-
+import './styles.css';
 
 const style = {
     position: 'absolute',
@@ -15,7 +15,7 @@ const style = {
     bgcolor: 'background.paper',
     
     boxShadow: 24,
-    borderRadius: "7px"
+    borderRadius: "7px",
    
   };
 
@@ -30,7 +30,8 @@ const PersonalDetails = ({handleClose,open}) => {
     aria-labelledby="modal-modal-title"
     aria-describedby="modal-modal-description"
   >
-    <Box sx={style}>
+    <Box className="box_cont"
+     sx={style}>
     
         <form >
     <Box
@@ -44,9 +45,9 @@ const PersonalDetails = ({handleClose,open}) => {
 >
     <Typography sx={{zIndex:2}} variant='h5' textAlign={"start"}>Personal Details</Typography>
     <hr />
-  <div className='px-4 flex justify-between items-center'>
+  <div className='textfield_cont px-4 flex justify-between items-center'>
     <p className='w-20 text-lg font-normal'>Name</p>
-  <TextField
+  <TextField className='textfield'
   sx={{width:"340px"}}
         hiddenLabel
         placeholder='Enter your name'
@@ -54,9 +55,9 @@ const PersonalDetails = ({handleClose,open}) => {
       />
   </div>
   
-  <div className='px-4 flex justify-between items-center'>
+  <div className='textfield_cont px-4 flex justify-between items-center'>
     <p className='w-20 text-lg font-normal'>Contact</p>
-  <TextField
+  <TextField className='textfield'
   sx={{width:"340px"}}
         hiddenLabel
        placeholder='Enter phone number'
@@ -64,9 +65,9 @@ const PersonalDetails = ({handleClose,open}) => {
       />
   </div>
 
-  <div className='px-4 flex justify-between items-center'>
+  <div className='textfield_cont px-4 flex justify-between items-center'>
     <p className='w-20 text-lg font-normal'>Email-ID</p>
-  <TextField
+  <TextField className='textfield'
   sx={{width:"340px"}}
         hiddenLabel
         placeholder='Enter email-id'
