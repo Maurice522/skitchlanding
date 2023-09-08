@@ -1,5 +1,6 @@
 import React from 'react'
 import res from "../../Assets/adsimage/restaurant-hall.png"
+import dooh from "../../Assets/adsimage/DOOH.webp"
 import secnd from "../../Assets/adsimage/2ndImg.png"
 import emptterrace from "../../Assets/adsimage/empty-terrace.png"
 import agency from "../../Assets/adsimage/agency.png"
@@ -49,10 +50,11 @@ const NewAdsHero = () => {
     <div className='flex flex-col overflow-hidden'>
         {/* 1st sec */}
         <div className='ads_section1 relative h-[440px] flex justify-end items-center'>
-            <img className='absolute -z-10 top-0 left-0 w-full h-[440px]' src={res} alt="" />
-            <div className='ads_section1_heading_cont flex flex-col w-1/2 justify-center gap-5'>
+            <img className='absolute -z-10 top-0 left-0 w-full h-[440px]' src={dooh} alt="" />
+            <div className='absolute -z-10 top-0 left-0 w-full h-[440px] bg-black bg-opacity-50'/>
+            <div className='ads_section1_heading_cont flex flex-col w-1/2 justify-center gap'>
                 <p className='ads_section1_heading text-white font-bold text-4xl'>Skitch Ads</p>
-                <p className='ads_section1_heading text-white font-bold text-4xl max-w-xs'>India's largest Restaurant <span className='text-[#FFC444]'>Digital Screen Network</span></p>
+                <p className='ads_section1_heading text-white font-bold text-4xl max-w-xs'>India's largest <span className='text-[#FFC444]'>PDOOH Network</span></p>
 
                 <p className='ads_section1_p text-white font-medium text-sm max-w-[220px]'>Unleash your brand's potential with India’s largest network of connected Digital Screens</p>
                 <button className='bg-[#FFC444] w-[200px] h-[30px] rounded-2xl font-bold text-md text-white '>Contact Us</button>
@@ -65,7 +67,9 @@ const NewAdsHero = () => {
                 <p className='ads_section2_heading text-[#FFC444] font-bold text-2xl max-w-xs'>Ready to elevate your marketing mix?</p>
                 <p className='ads_section2_text max-w-[230px] text-sm'>Gain access to a never seen
                     before combination of reach,
-                    relevance and affordability.
+                    relevance and affordability. Screens available in different sizes.
+                </p>
+                <p className='ads_section2_text max-w-[230px] text-sm'>For more information...
                 </p>
                 <button className='bg-[#FFC444] w-[200px] h-[30px] rounded-2xl font-bold text-md text-white '>Contact Us</button>
             </div>
@@ -76,13 +80,13 @@ const NewAdsHero = () => {
 
         <div className='ads_section3 relative h-[600px] flex flex-col justify-center items-center gap-12'>
             <img className='absolute -z-10 top-0 left-0 w-full' src={emptterrace} alt="" />
-            <p className='ads_section3_why text-white'>Why RESTAURANT?</p>
-            <p className='text-white max-w-sm font-semibold text-2xl'>people across India visit the restaurants daily <br />
+            <p className='ads_section3_why text-white'>Why Us?</p>
+            <p className='text-center text-white max-w-sm font-semibold text-2xl'>People across India visit the restaurants daily <br />
                 <span className='text-[10px] font-light'>The number is expected to rise substantially to 90 Million+ by 2026</span>
             </p>
             <div className='ads_section3_desc flex gap-28'>
                 <section className='flex flex-col items-center gap-3'> <p className='text-center text-white font-semibold text-lg max-w-[150px]'>Rise in annual consumption</p>
-                    <p className='ads_section3_desc_text text-white max-w-xs text-[10px] font-thin'>The restaurant industry is growing rapidly,
+                    <p className='ads_section3_desc_text text-center text-white max-w-xs text-[10px] font-thin'>The restaurant industry is growing rapidly,
                          with global sales expected to reach $10 trillion by 2027. 
                          This growth is being driven by a number of factors, 
                          including increasing affluence, the growth of delivery and 
@@ -94,13 +98,13 @@ const NewAdsHero = () => {
                 </section>
                
                 <section className='flex flex-col items-center gap-3'> <p className='text-center text-white font-semibold text-lg max-w-[150px]'>Decrease in brand loyalty</p>
-                    <p className='ads_section3_desc_text text-white max-w-xs text-[10px] font-thin'>
+                    <p className='ads_section3_desc_text text-center text-white max-w-xs text-[10px] font-thin'>
                     As per McKinsey, COVID-19 has dramatically changed consumer behavior by creating a loyalty shock and customers are switching brands at unprecedented rates.  
                     </p>
                 </section>
 
                 <section className='flex flex-col items-center gap-3'> <p className='text-center text-white font-semibold text-lg max-w-[150px]'>Growth of Audience</p>
-                    <p className='ads_section3_desc_text text-white max-w-xs text-[10px] font-thin'>he shift to online sales is a major trend that is transforming the retail industry. Consumers are increasingly looking for convenience and value when they shop, and online shopping offers both of these benefits. As a result, the share of online sales is expected to continue to grow in the coming years.
+                    <p className='ads_section3_desc_text text-center text-white max-w-xs text-[10px] font-thin'>he shift to online sales is a major trend that is transforming the retail industry. Consumers are increasingly looking for convenience and value when they shop, and online shopping offers both of these benefits. As a result, the share of online sales is expected to continue to grow in the coming years.
 In short, people are buying more and more things online, and this trend is expected to continue.
                         </p>
                 </section>
