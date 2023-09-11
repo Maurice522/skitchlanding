@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.700dafb8.css",
-    "main.js": "/static/js/main.cd0a25c9.js",
+    "main.css": "/static/css/main.9e0e9c4a.css",
+    "main.js": "/static/js/main.a2ab6417.js",
     "static/js/787.7bc15d5a.chunk.js": "/static/js/787.7bc15d5a.chunk.js",
     "static/media/restaurant-hall.png": "/static/media/restaurant-hall.6811a8072be574329fbb.png",
     "static/media/heroburger.svg": "/static/media/heroburger.b11b4ffe0c878199d5f9121069d15ad3.svg",
@@ -12,6 +12,7 @@
     "static/media/outdoor-res.png": "/static/media/outdoor-res.9f7bcec5d131835627a8.png",
     "static/media/agency.png": "/static/media/agency.64ba4180335033b95171.png",
     "static/media/hashtag.png": "/static/media/hashtag.93ce1b4ccbc70229699a.png",
+    "static/media/DOOH.webp": "/static/media/DOOH.91753674818632433979.webp",
     "static/media/robo.png": "/static/media/robo.b0f42b4efd25c6671cc3.png",
     "static/media/cashier.png": "/static/media/cashier.9a022e9403904830b421.png",
     "static/media/wow-image-2.png": "/static/media/wow-image-2.229271845e6af72cc63e.png",
@@ -24,12 +25,12 @@
     "static/media/SKITCHLOGO.svg": "/static/media/SKITCHLOGO.dfb0a591ce9a0cb590164074de3cbb93.svg",
     "static/media/arrow.svg": "/static/media/arrow.2a82e4f2330dcce6c7587a67aa69aead.svg",
     "index.html": "/index.html",
-    "main.700dafb8.css.map": "/static/css/main.700dafb8.css.map",
-    "main.cd0a25c9.js.map": "/static/js/main.cd0a25c9.js.map",
+    "main.9e0e9c4a.css.map": "/static/css/main.9e0e9c4a.css.map",
+    "main.a2ab6417.js.map": "/static/js/main.a2ab6417.js.map",
     "787.7bc15d5a.chunk.js.map": "/static/js/787.7bc15d5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.700dafb8.css",
-    "static/js/main.cd0a25c9.js"
+    "static/css/main.9e0e9c4a.css",
+    "static/js/main.a2ab6417.js"
   ]
 }
